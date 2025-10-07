@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
 
-# stop the container
-echo hi
+# Stop the running container (if any)
+echo "Hi"
 
