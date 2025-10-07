@@ -2,6 +2,5 @@
 set -e
 
 # Stop the running container (if any)
-containerid='docker ps | awk -F " " '{print $1}''
-docker rm -f $containerid
+docker ps -q --filter "publish=5000" | xargs -r docker rm -f
 
