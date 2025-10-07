@@ -5,4 +5,4 @@ set -e
 docker pull lavanyags88/python-sample-app-demo-k8n:v1
 
 # Run the Docker image as a container
-docker run -dit -p 5000:5000 lavanyags88/python-sample-app-demo-k8n:v1
+docker run -dit -p 8000:8000 lavanyags88/python-sample-app-demo-k8n:v1
