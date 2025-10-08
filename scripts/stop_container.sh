@@ -1,6 +1,5 @@
 #!/bin/bash
-set -e
+containerid=$(docker ps | awk 'NR>1 {print $1}')
+docker stop $containerid
 
-# Stop the running container (if any)
-echo "Hi"
 
